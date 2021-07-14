@@ -7,7 +7,7 @@ const Home = () => <>
             <h1>Home</h1>
             <br/>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a porta velit. 
+                Lorem ipsum dolor sit amet, dad changed something. Sed a porta velit. 
                 Sed scelerisque dui erat, vel feugiat velit lacinia nec. Vestibulum in aliquet augue, 
                 euismod molestie turpis. Etiam felis lorem, efficitur quis rhoncus sed, malesuada quis arcu. 
                 Maecenas ac risus ultrices, facilisis justo a, venenatis magna. Nunc ut eleifend erat. 
