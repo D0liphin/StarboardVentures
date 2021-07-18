@@ -42,7 +42,7 @@ const BlogWidgets = ({ children }) => <div style={{ display: "flex", flexDirecti
 
 const Blog = () => (
     <>
-        <Background images={["7Ebx92w.png"]}/> 
+        <Background image="home-background-3.jpg"/> 
         <TopBar /> 
         <Page>
             <major-heading>Blog</major-heading>
