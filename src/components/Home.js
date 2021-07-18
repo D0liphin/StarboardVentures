@@ -8,8 +8,6 @@ import BottomBar from './BottomBar.js';
 import LineBreak from './LineBreak';
 
 
-const LOREM_IPSUM = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod erat sapien, eu tincidunt risus luctus a. Sed euismod quam quis lorem laoreet aliquam. Donec et enim turpis. Suspendisse ut facilisis urna. Vestibulum in dapibus ligula. Nulla condimentum ante non scelerisque elementum. Aliquam purus ipsum, ornare eu quam et, sagittis consectetur nulla. Etiam in efficitur diam. Nam ac aliquet ipsum, nec finibus velit. Mauris elementum nec leo sed dignissim. Fusce posuere leo in metus iaculis, at commodo magna ultricies. In massa ex, lobortis at fringilla vitae, iaculis ut lorem. In hac habitasse platea dictumst. In scelerisque luctus lacus. Vestibulum sagittis tempus turpis, at imperdiet nunc ullamcorper in.`;
-
 const PlaceholderImg = ({ dimensions, float }) => (
     <img 
         src="https://winaero.com/blog/wp-content/uploads/2019/11/Photos-new-icon.png" 

@@ -10,6 +10,7 @@ const Blog = () => (
         <TopBar /> 
         <Page>
             <major-heading>Blog</major-heading>
+            Not yet in service!
         </Page>
         <BottomBar />
     </>

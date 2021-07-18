@@ -28,15 +28,15 @@ const TopBar = () => (
     <div id="top-bar-container"> 
         <div id="top-bar-elements-container">
             <div class="logo">
-                <img src="starboard-ventures-logo.svg" alt="" height="105%"/>
+                <img src="/starboard-ventures-logo.svg" alt="" height="105%"/>
             </div>
             <div style={{display: "flex-box", flexGrow: "2"}}></div>
             <div class="navigation-container">
                 <NavEl page="/home">Home</NavEl>
                 <NavEl page="/team">Team</NavEl>
-                <NavEl page="/contact">Contact</NavEl>
+                <NavEl page="/projects">Projects</NavEl>
                 <NavEl page="/blog">Blog</NavEl>
-                <NavEl page="/diversity-and-inclusion">Diversity & Inclusion</NavEl>
+                <NavEl page="/contact">Contact</NavEl>
             </div>
         </div>
     </div>

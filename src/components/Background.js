@@ -18,7 +18,31 @@ const Background = ({ image, images, full }) => {
         images 
         ? images[randint(0, images.length)]
         : image
-    );  
+    );      
+    let imgRef = React.useRef(null);
+    let [ styleIsUpdated, setStyleIsUpdated ] = React.useState(false);
+    React.useEffect(() => {
+        function updateStyle() {
+            let windowWidth = document.documentElement.clientWidth;
+            let styleIsUpdated;
+            setStyleIsUpdated(s => {
+                styleIsUpdated = s;
+                return s;
+            });
+
+            if (!imgRef.current) return;
+            if (windowWidth <= 1000 && !styleIsUpdated) {
+                imgRef.current.style["min-width"] = "1000px";
+                setStyleIsUpdated(true);
+            } else if (windowWidth > 1000 & styleIsUpdated) {
+                imgRef.current.style["min-width"] = "100vw";
+                setStyleIsUpdated(false);
+            }
+        }
+        updateStyle();
+        window.addEventListener("resize", updateStyle);
+        return () => window.removeEventListener("resize", updateStyle);
+    }, [])
 
     if (full) makeBackground(`url("${imageSrc}")`, "cover", "no-repeat");
     else  makeBackground("", "", "");
@@ -28,10 +52,11 @@ const Background = ({ image, images, full }) => {
         return (
             <div style={{ overflow: "hidden", maxHeight: "35vh" }}>
                 <img 
+                    ref={imgRef}
                     alt=""
                     style={{
                         width: "calc(100% + 20px)", 
-                        minWidth: "1000px",
+                        minWidth: styleIsUpdated ?  "1000px" : "100vw",
                         transform: "translateX(calc(0.7 * (100vw - 100%)))",
                         display: "block"
                     }}

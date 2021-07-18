@@ -222,3 +222,78 @@ major-heading {
   }
 }
 
+/* #region Projects */
+
+#project-page-container {
+  display: flex;
+}
+
+#project-selector-container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  padding: 0 0 5px 5px;
+  min-width: 20%;
+  border-right: 1px solid var(--dark-blue);
+  margin-right: 10px;
+}
+
+#project-selector-container a {
+  text-decoration: none;
+}
+
+.selected-project, .unselected-project {
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  transition-duration: 200ms;
+}
+
+.unselected-project {
+  color: rgb(134, 137, 153);
+}
+
+.selected-project {
+  color: white;
+  background-color: var(--dark-blue);
+}
+
+.unselected-project:hover {
+  color: var(--dark-blue);
+}
+
+.project h1 {
+  font-weight: 300;
+  text-align: center;
+  margin: 5px 0 5px;
+}
+
+.project img {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  #project-selector-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    border-right: 0;
+    border-bottom: 1px solid var(--dark-blue);
+  }
+
+  #project-page-container {
+    flex-direction: column;
+  }
+
+  major-heading {
+    font-size: 35px;
+  }
+
+  .unselected-project, .selected-project {
+    font-size: 14px;
+  }
+}
+
+/* #endregion Projects */

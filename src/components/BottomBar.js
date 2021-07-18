@@ -25,7 +25,7 @@ const BottomBar = () => {
         <div id="bottom-bar-flex-aligner" ref={bottomBarRef}>
             <div id="bottom-bar-container">
                 <div id="bottom-bar-elements-container">
-                    <img src="starboard-ventures-logo-white.svg" alt="" />
+                    <img src="/starboard-ventures-logo-white.svg" alt="" />
                     <div style={{ flexGrow: "2", minWidth: "40px" }}/>
                     <div class="navigation-container">
                         I think something should go here, but I'm not sure what. 
