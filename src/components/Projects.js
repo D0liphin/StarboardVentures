@@ -7,8 +7,6 @@ import TopBar from './TopBar.js';
 import Page from './Page.js';
 import LineBreak from './LineBreak';
 
-const PLACEHOLDER_IMG = "https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg";
-
 const ProjectSelector = ({ state, setState }) => {
     return <div id="project-selector">
 
