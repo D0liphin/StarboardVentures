@@ -5,12 +5,9 @@ import Background from './Background';
 import BottomBar from './BottomBar';
 import TopBar from './TopBar';
 import Page from './Page';
-import LineBreak from './LineBreak';
-import Article from './Article';
 
 import TestArticle from './articles/TestArticle';
-
-const PLACEHOLDER_IMG = "https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg";
+import Blog1 from './articles/Blog1';
 
 const makeKebab = (text) => text.toLowerCase().replace(/ /g, "-");
 
@@ -113,7 +110,7 @@ const Blog = () => (
         <TopBar /> 
         <Articles>
             {TestArticle}
-            {TestArticle}
+            {Blog1}
             {TestArticle}
             {TestArticle}
         </Articles>
