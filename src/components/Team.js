@@ -13,7 +13,7 @@ const TeamMember = ({ name, float, children }) => {
                 float: float, 
                 width: "25%", 
                 minWidth: "150px", 
-                margin: float == "left" ? "0 20px 10px 0" : "0 0 10px 20px",
+                margin: float === "left" ? "0 20px 10px 0" : "0 0 10px 20px",
                 borderRadius: "15px"
             }}
         />
