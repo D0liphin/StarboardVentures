@@ -16,11 +16,6 @@ const ProjectSelector = ({ state, setState }) => {
 const makeKebab = (text) => text.toLowerCase().replace(/ /g, "-");
 
 const ProjectsContainer = ({ children=[], noproject }) => {
-    const [ state, setState ] = React.useState({
-        projects: [],
-        selectedProjectIndex: 0
-    });
-
     return <div id="project-page-container">
         <div id="project-selector-container">
             {(() => {
@@ -29,6 +24,7 @@ const ProjectsContainer = ({ children=[], noproject }) => {
                 return projects.map(project => {
                     key++;
                     let projectName = project.props.name;
+
                     let path = "/projects/" + makeKebab(projectName);
                     return <div key={key}>
                         <Link to={path}>

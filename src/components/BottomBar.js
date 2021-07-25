@@ -9,6 +9,10 @@ const BottomBar = () => {
     // Great job moron
     useEffect(() => {
         let updateHeight = () => {
+            if (!bottomBarRef.current) {
+                new Promise(r => setTimeout(r, 200)).then(updateHeight);
+                return;
+            }
             bottomBarRef.current.style.marginTop = getMarginHeight(windowWidth);
             let rect = bottomBarRef.current.getBoundingClientRect();
             if (rect.bottom <= windowHeight) 
@@ -17,12 +21,13 @@ const BottomBar = () => {
             
         }
         updateHeight();
+        new Promise(r => setTimeout(r, 500)).then(updateHeight);
         window.addEventListener("resize", updateHeight);
         return () => window.removeEventListener("resize", updateHeight);
     });
 
     return (<>
-        <div id="bottom-bar-flex-aligner" ref={bottomBarRef}>
+        <div id="bottom-bar-flex-aligner" ref={bottomBarRef} style={{ marginTop: "1px" }}>
             <div id="bottom-bar-container">
                 <div id="bottom-bar-elements-container">
                     <img src="/starboard-ventures-logo-white.svg" alt="" />

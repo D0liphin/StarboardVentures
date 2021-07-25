@@ -8,9 +8,9 @@ const BACKGROUND_IMAGES = [
 ].map(s => `https://i.imgur.com/${s}`)
 
 function makeBackground() {
-    document.body.style.backgroundImage = arguments[0];
-    document.body.style.backgroundSize = arguments[1];
-    document.body.style.backgroundRepeat = arguments[2];
+    document.documentElement.style.backgroundImage = arguments[0];
+    document.documentElement.style.backgroundSize = arguments[1];
+    document.documentElement.style.backgroundRepeat = arguments[2];
 }
 
 const Background = ({ image, images, full }) => {
@@ -21,6 +21,7 @@ const Background = ({ image, images, full }) => {
     );      
     let imgRef = React.useRef(null);
     let [ styleIsUpdated, setStyleIsUpdated ] = React.useState(false);
+
     React.useEffect(() => {
         function updateStyle() {
             let windowWidth = document.documentElement.clientWidth;

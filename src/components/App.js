@@ -1,8 +1,9 @@
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    useHistory
 } from "react-router-dom";
 import React from 'react';
 
@@ -20,8 +21,10 @@ const Redirect = ({ to }) => {
     return <Link to="/home" ref={redirectLinkRef} />
 }
 
-const App = () => (
-    <div id="main-container">
+const App = () => {
+    const history = useHistory();
+
+    return <div id="main-container">
         <Router>
             <Switch>
                 <Route path="/home">
@@ -46,6 +49,6 @@ const App = () => (
         </Router>
 
     </div>
-);
+};
 
 export default App;
