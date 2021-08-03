@@ -1,11 +1,11 @@
 import React from 'react';
-// import useWindowDimensions from '../functions/useWindowDimensions';
+import useWindowDimensions from '../functions/useWindowDimensions';
 
 const randint = (from, to) => Math.floor(Math.random() * (to - from));
 
-// const BACKGROUND_IMAGES = [
-//     "7Ebx92w.png", "Xb7Whge.png", "omaldQs.jpg"
-// ].map(s => `https://i.imgur.com/${s}`)
+const BACKGROUND_IMAGES = [
+    "7Ebx92w.png", "Xb7Whge.png", "omaldQs.jpg"
+].map(s => `https://i.imgur.com/${s}`)
 
 function makeBackground() {
     document.documentElement.style.backgroundImage = arguments[0];

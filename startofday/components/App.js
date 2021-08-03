@@ -3,7 +3,7 @@ import {
     Switch,
     Route,
     Link,
-    // useHistory
+    useHistory
 } from "react-router-dom";
 import React from 'react';
 
@@ -22,7 +22,7 @@ const Redirect = ({ to }) => {
 }
 
 const App = () => {
-    // const history = useHistory();
+    const history = useHistory();
 
     return <div id="main-container">
         <Router>
