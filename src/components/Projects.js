@@ -87,16 +87,8 @@ const Projects = () => {
       <Page>
         <major-heading>Partner</major-heading>
         <ProjectsContainer
-          noproject={
-            <div style={{ fontSize: '18px' }}>
-              As a marine partner we can act in four different capacities/roles:
-              Board Member, Due Diligence, Sale and Purchase and Owner's
-              Representative
-            </div>
-          }
         >
           <Project name="Intro">
-            <img src={BoardImg1} alt="" />
             <div
               style={{
                 fontSize: '18px',
@@ -113,7 +105,6 @@ const Projects = () => {
               entities including offshore and break-bulk operators, single ship
               entities, and commercial groups.
             </div>
-            <img src={BoardImg2} alt="" />
             <LineBreak />
           </Project>
           <Project name="Board Member">
