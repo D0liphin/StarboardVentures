@@ -52,14 +52,27 @@ const Team = () => (
                 </TeamMember>
                 <LineBreak />
                 <TeamMember name="Simon Wade" float="left">
-                    is Starboard Ventures’ Marine Technical Director.  He is a founding member of SV, 
-                    joining in 2013.  Simon has 25 years of experience in the marine sector.  Prior to 
-                    joining SV he was the country manager for Lloyd’s Register in Ireland.  He has extensive 
-                    new building experience in Korea, the Philippines and China across bulkers, tankers, and 
-                    container ships.
                     <LineBreak height="10px"/>
                     He is a naval architect and chartered engineer.  He has a B.Eng from the University of 
                     Southampton.
+                    - 25 years experience in the marine sector
+                    <LineBreak height="10px"/>
+                    - newbuilding and ship repair in Asia: Hong Kong, South Korea, China. Ship Types were
+                    bulkers, tankers and container ships 
+                    <LineBreak height="10px"/>
+                    - Country Manager Lloyd's Register Ireland for 7 years
+                    <LineBreak height="10px"/>
+                    - SV as Marine Technical Director
+                    <LineBreak height="10px"/>
+                    - Fleetscape investment assessment
+                    <LineBreak height="10px"/>
+                    - Green Containership Group newbuild supervision, Philipines
+                    <LineBreak height="10px"/>
+                    - shipyard assessment for investors (Spain - Solvtrans)
+                    <LineBreak height="10px"/>
+                    - RCYC boutique cruise ships
+                    <LineBreak height="10px"/>
+                    - add something about environmental
                 </TeamMember>
             </div>
         </Page>

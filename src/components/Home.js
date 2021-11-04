@@ -30,7 +30,7 @@ const BigText = () => {
       />
       <div id="big-text">
         <div style={{ padding: '20px 15px 20px 15px' }}>
-          Marine Sector Operating Partner
+          Marine Sector Partner
         </div>
       </div>
     </>
@@ -55,32 +55,39 @@ const Description = () => (
       and acting as owner's representative.
       <LineBreak />
       <h3>Modern Shipping</h3>
-      Three key trends in shipping have been the move to larger ships, more
-      demanding environmental regulations and the requirement for additional
-      capital. Looking forward, it is the environmental challenge that is likely
-      to increase in importance and rightly so. Trying to forecast who the
-      winners and losers of these trends is crucial to making the right marine
-      investments. Another structural feature of the shipping sector is that in
-      most shipping classes it is possible to make direct investments with a
-      very light organisation. We explore these and many other issues in our
-      Blog.
+      The structure of the marine industry makes it possible to invest directly
+      in assets without the need for large overheads. There are high quality
+      organizations that provide ship management and crewing services, brokers
+      to assist with Sale and Purchase, and chartering and pooling organizations
+      that can manage the commercial aspect of your marine asset for as long as
+      you own it. The structure of the supplier network required will depend on
+      a number of factors, not least, on the type of ship but in all cases you
+      will need a trusted partner to help you set up and manage your suppliers
+      and ensure that your investment is a success.
+      <LineBreak />
+      Shipping is by definition an international business and over time it has
+      developed a very helpful set of standards, organizational bodies and a
+      legal framework which help keep everything running smoothly. If you would
+      like to understand more about the shipping sector, how it is structured
+      and what the current trends are please have a look at our blog.
       <LineBreak />
       <h3>Key Investment Decisions</h3>
-      For direct shipping investments the inital decisions include the shipping
-      class (e.g. product tanker, container), the age of the vessel and the
-      size. Following acquisition decisions will need to be made about where to
-      charter out the vessel and the length of the charter. Finally, there is
-      the timing of the sales process. Along the way decisions will need to be
-      made regarding brokers, ship management and financing structure.
+      For direct shipping investments the inital decisions include the type of
+      ship: crude, product, chemical, container, dry bulk, multi-purpose, off
+      shore or other the age of the vessel and the size. Then begins the Sale
+      and Purchase process and following acquisition decisions will need to be
+      made about where to charter out the vessel and the length of the charter.
+      Finally, there is the timing of the sales process. Along the way decisions
+      will need to be made regarding brokers, ship management and financing
+      structure, and depending on the ship type, bunker hedging, crewing and
+      maintenance and dry-docking.
       <LineBreak />
-      <h3>Operating Partner</h3>
-      Starboard Ventures is an operating partner. What this means is that we
-      partner up with financial investors and help manage all operational
-      aspects of the investment. This would include managing suppliers &mdash;
-      brokers, shipyards, fleet managers &mdash; finding and selecting assets,
-      or providing assistance within commercial disputes. Alternatively, we also
-      provide Board level representation of strategic support for indirect
-      investments or corporate acquisitions.
+      <h3>Starboard Ventures as your Partner</h3>
+      Starboard Ventures is a marine partner. We partner with investors and help
+      manage the strategic and operational aspects of marine investment.
+      Typically we act as owner's representatives and act as Board members on
+      behalf of investors, however, we also get involved in commercial strategy
+      especially vessel acquisition.
       <LineBreak />
     </div>
   </div>

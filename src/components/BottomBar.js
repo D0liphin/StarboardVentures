@@ -46,8 +46,8 @@ const BottomBar = () => {
               }}
               class="navigation-container"
             >
-              Board Representative &#8212; Commercial Strategy <br></br>
-              Vessel Acquisition &#8212; Owner's Representative
+              Board Member &#8212; Due Diligence<br></br>
+              Sale & Purchase &#8212; Owner's Representative
             </div>
           </div>
         </div>

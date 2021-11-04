@@ -8,7 +8,7 @@ export default (
     date="25/07/2021"
     author="Roger Iliffe"
     description={`
-        This is a placeholder description... Nothing to see here really. Just trying
+        Just made a change. This is a placeholder description... Nothing to see here really. Just trying
         to fill up this space. This is a placeholder description... Nothing to see here 
         really. Just trying to fill up this space. This is a placeholder description... 
         Nothing to see here really. Just trying to fill up this space.
