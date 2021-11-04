@@ -33,10 +33,10 @@ const TopBar = () => (
             <div style={{display: "flex-box", flexGrow: "2"}}></div>
             <div class="navigation-container">
                 <NavEl page="/home">Home</NavEl>
-                <NavEl page="/projects">Services</NavEl>
-                <NavEl page="/blog">Blog</NavEl>
                 <NavEl page="/team">Team</NavEl>
+                <NavEl page="/projects">Partner</NavEl>
                 <NavEl page="/contact">Contact</NavEl>
+                <NavEl page="/blog">Blog</NavEl>
             </div>
         </div>
     </div>

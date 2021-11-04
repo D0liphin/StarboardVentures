@@ -85,7 +85,7 @@ const Projects = () => {
       <Background image="/projects-background.jpg" />
       <TopBar />
       <Page>
-        <major-heading>Services</major-heading>
+        <major-heading>Partner</major-heading>
         <ProjectsContainer
           noproject={
             <div style={{ fontSize: '18px' }}>
@@ -95,6 +95,27 @@ const Projects = () => {
             </div>
           }
         >
+          <Project name="Intro">
+            <img src={BoardImg1} alt="" />
+            <div
+              style={{
+                fontSize: '18px',
+                textAlign: 'justify',
+              }}
+            >
+              Depending on the nature and structure of your investment we can
+              act as one of your Board representatives. While fulfilling the
+              role of Board Member we typically be acting in an active manner:
+              supporting management, providing market insight and assisting with
+              strategic initiatives.
+              <LineBreak />
+              We have acted as Board Members in a wide range of shipping
+              entities including offshore and break-bulk operators, single ship
+              entities, and commercial groups.
+            </div>
+            <img src={BoardImg2} alt="" />
+            <LineBreak />
+          </Project>
           <Project name="Board Member">
             <img src={BoardImg1} alt="" />
             <div
@@ -174,14 +195,16 @@ const Projects = () => {
                 textAlign: 'justify',
               }}
             >
-              The role of Owner's Representative simply means looking after the owner's 
-              best interests at every stage of the ship's life.
-              In this role we either work with the client to set up the right supply chain 
-              or, if this has already been done, manage their activities on a day to day basis.
-              Key activities include managing counter-party claims, commercial and operational issues,
-              ensuring that the vessels are kept in good order and getting value for money.
-              Of particular importance is managing the in-service maintenance and the dry-docking scope
-              as well as developing and maintaining good working relationships with the classification
+              The role of Owner's Representative simply means looking after the
+              owner's best interests at every stage of the ship's life. In this
+              role we either work with the client to set up the right supply
+              chain or, if this has already been done, manage their activities
+              on a day to day basis. Key activities include managing
+              counter-party claims, commercial and operational issues, ensuring
+              that the vessels are kept in good order and getting value for
+              money. Of particular importance is managing the in-service
+              maintenance and the dry-docking scope as well as developing and
+              maintaining good working relationships with the classification
               society and the flag state.
             </div>
             <img src={OR2} alt="" />
