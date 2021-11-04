@@ -7,20 +7,6 @@ import TopBar from './TopBar.js';
 import Page from './Page.js';
 import LineBreak from './LineBreak';
 
-import BoardImg1 from './images/boardGeoquip.jpg';
-import BoardImg2 from './images/boardBeluga.jpg';
-import DD1 from './images/DDBulker.jpg';
-import DD2 from './images/DDTanker.jpg';
-import SP1 from './images/SAndPContainer.jpg';
-import SP2 from './images/SAndPDSV.jpg';
-import OR1 from './images/ORDryDock.jpg';
-import OR2 from './images/ORPort.jpg';
-
-// const ProjectSelector = ({ state, setState }) => {
-//     return <div id="project-selector">
-//     </div>
-// }
-
 const makeKebab = (text) => text.toLowerCase().replace(/ /g, '-');
 
 const ProjectsContainer = ({ children = [], noproject }) => {
@@ -86,8 +72,7 @@ const Projects = () => {
       <TopBar />
       <Page>
         <major-heading>Partner</major-heading>
-        <ProjectsContainer
-        >
+        <ProjectsContainer>
           <Project name="Intro">
             <div
               style={{
@@ -95,20 +80,14 @@ const Projects = () => {
                 textAlign: 'justify',
               }}
             >
-              Depending on the nature and structure of your investment we can
-              act as one of your Board representatives. While fulfilling the
-              role of Board Member we typically be acting in an active manner:
-              supporting management, providing market insight and assisting with
-              strategic initiatives.
-              <LineBreak />
-              We have acted as Board Members in a wide range of shipping
-              entities including offshore and break-bulk operators, single ship
-              entities, and commercial groups.
+              We can act in roughly four ways on your behalf: as a board member,
+              in due diligence, in sale and purchase or as an owner's
+              representative.
             </div>
             <LineBreak />
           </Project>
           <Project name="Board Member">
-            <img src={BoardImg1} alt="" />
+            <img src="./board-Beluga.jpg" alt="" />
             <div
               style={{
                 fontSize: '18px',
@@ -125,11 +104,11 @@ const Projects = () => {
               entities including offshore and break-bulk operators, single ship
               entities, and commercial groups.
             </div>
-            <img src={BoardImg2} alt="" />
+            <img src="./board-Geoquip.jpg" alt="" />
             <LineBreak />
           </Project>
           <Project name="Due Diligence">
-            <img src={DD1} alt="" />
+            <img src="DDBulker.jpg" alt="" />
             <div
               style={{
                 fontSize: '18px',
@@ -151,10 +130,10 @@ const Projects = () => {
               counter-parties and assessed a number of shipyards, in the process
               we have developed a detailed shipyard assessment tool.
             </div>
-            <img src={DD2} alt="" />
+            <img src="DDTanker.jpg" alt="" />
           </Project>
           <Project name="Sale and Purchase">
-            <img src={SP1} alt="" />
+            <img src="SAndPContainer.jpg" alt="" />
             <div
               style={{
                 fontSize: '18px',
@@ -176,10 +155,10 @@ const Projects = () => {
               structure, this could involve a long term charter, joining a pool
               or a more bespoke structure.
             </div>
-            <img src={SP2} alt="" />
+            <img src="SAndPDSV.jpg" alt="" />
           </Project>
           <Project name="Owner's Representative">
-            <img src={OR1} alt="" />
+            <img src="ORDryDock.jpg" alt="" />
             <div
               style={{
                 fontSize: '18px',
@@ -198,7 +177,7 @@ const Projects = () => {
               maintaining good working relationships with the classification
               society and the flag state.
             </div>
-            <img src={OR2} alt="" />
+            <img src="ORPort.jpg" alt="" />
           </Project>
         </ProjectsContainer>
       </Page>

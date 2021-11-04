@@ -4,7 +4,7 @@ const PLACEHOLDER_IMG = "https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc
 
 export default (
   <Article
-    title="This is the first actual test blog"
+    title="So You Want to Be a Shipping Mogul"
     date="25/07/2021"
     author="Roger Iliffe"
     description={`

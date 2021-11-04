@@ -7,6 +7,9 @@ import TopBar from './TopBar.js';
 import BottomBar from './BottomBar.js';
 import LineBreak from './LineBreak';
 
+const Indent = () =>
+    <div style={{ display: "inline-block", width: "2rem" }} />;
+
 const BigText = () => {
   const bigTextRef = React.useRef(null);
   const [windowWidth] = useWindowDimensions();
@@ -46,6 +49,7 @@ const Description = () => (
         textAlign: 'justify',
       }}
     >
+      <Indent/>
       The marine sector is an attractive asset class open to financial investors
       with access to the right knowledge and expertise. Since 2013, Starboard
       Ventures has been partnering with investors to provide them with this
@@ -54,7 +58,9 @@ const Description = () => (
       offer are: board representation, commercial strategy, vessel acquisition
       and acting as owner's representative.
       <LineBreak />
+
       <h3>Modern Shipping</h3>
+      <Indent/>
       The structure of the marine industry makes it possible to invest directly
       in assets without the need for large overheads. There are high quality
       organizations that provide ship management and crewing services, brokers
@@ -72,6 +78,7 @@ const Description = () => (
       and what the current trends are please have a look at our blog.
       <LineBreak />
       <h3>Key Investment Decisions</h3>
+      <Indent/>
       For direct shipping investments the inital decisions include the type of
       ship: crude, product, chemical, container, dry bulk, multi-purpose, off
       shore or other the age of the vessel and the size. Then begins the Sale
@@ -83,6 +90,7 @@ const Description = () => (
       maintenance and dry-docking.
       <LineBreak />
       <h3>Starboard Ventures as your Partner</h3>
+      <Indent/>
       Starboard Ventures is a marine partner. We partner with investors and help
       manage the strategic and operational aspects of marine investment.
       Typically we act as owner's representatives and act as Board members on
