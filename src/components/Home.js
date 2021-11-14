@@ -7,8 +7,7 @@ import TopBar from './TopBar.js';
 import BottomBar from './BottomBar.js';
 import LineBreak from './LineBreak';
 
-const Indent = () =>
-    <div style={{ display: "inline-block", width: "2rem" }} />;
+const Indent = () => <div style={{ display: 'inline-block', width: '2rem' }} />;
 
 const BigText = () => {
   const bigTextRef = React.useRef(null);
@@ -33,7 +32,7 @@ const BigText = () => {
       />
       <div id="big-text">
         <div style={{ padding: '20px 15px 20px 15px' }}>
-          Marine Sector Partner
+          Investing in the Marine Sector
         </div>
       </div>
     </>
@@ -49,54 +48,48 @@ const Description = () => (
         textAlign: 'justify',
       }}
     >
-      <Indent/>
-      The marine sector is an attractive asset class open to financial investors
-      with access to the right knowledge and expertise. Since 2013, Starboard
-      Ventures has been partnering with investors to provide them with this
-      expertise so that they can maximise the value of their marine investments
-      while carefully managing operational risk. The typical services that we
-      offer are: board representation, commercial strategy, vessel acquisition
-      and acting as owner's representative.
+      <h3>Marine Sector</h3>
+      The marine sector can be understood from a couple of perspectives. Most
+      simply it is composed of five areas: ships, ship construction, port
+      infrastructure, ship operations and ship services. The sector can also be
+      split into transport and offshore. Within transport the larger segments
+      are dry bulk, crude oil, petroleum products, chemicals, containers, car
+      carriers, and cruise ships. Offshore, on the other hand, is dominated by
+      oil and gas production and includes platform supply vessels, ocean going
+      tugs, crewing vessels, oil and gas platforms, dredgers and windfarm
+      erection vessels.
+      <br />
+      <br />
+      Marine transport is for the most part an international business and has a
+      well-developed set of accepted standards, organizational structures and a
+      legal framework which help keep everything running smoothly. These
+      structures help preserve competition and as a consequence within
+      international shipping, prices and economics tend to be global. The
+      notable exception to this is the movement of goods between domestic ports
+      known as cabotage trade. This area of shipping is more prone to regulation
+      and local pricing.
       <LineBreak />
-
-      <h3>Modern Shipping</h3>
-      <Indent/>
-      The structure of the marine industry makes it possible to invest directly
-      in assets without the need for large overheads. There are high quality
-      organizations that provide ship management and crewing services, brokers
-      to assist with Sale and Purchase, and chartering and pooling organizations
-      that can manage the commercial aspect of your marine asset for as long as
-      you own it. The structure of the supplier network required will depend on
-      a number of factors, not least, on the type of ship but in all cases you
-      will need a trusted partner to help you set up and manage your suppliers
-      and ensure that your investment is a success.
+      <h3>Starboard Ventures</h3>
+      Starboard Ventures was founded in 2013 with the goal of helping investors
+      "steer the right course", with their marine investments. It is lead by
+      Roger Iliffe and Simon Wade who together have more than 35 years
+      experience in the marine industry over a wide range of roles from
+      ship-building to CEO.(team link)
       <LineBreak />
-      Shipping is by definition an international business and over time it has
-      developed a very helpful set of standards, organizational bodies and a
-      legal framework which help keep everything running smoothly. If you would
-      like to understand more about the shipping sector, how it is structured
-      and what the current trends are please have a look at our blog.
+      <h3>Our Services</h3>
+      To ensure that we have the greatest impact we focus on four services:
+      Strategic Leadership, Project Management, Innovation and Delivery, and
+      Transformation and Restructuring. (services link)
       <LineBreak />
-      <h3>Key Investment Decisions</h3>
-      <Indent/>
-      For direct shipping investments the inital decisions include the type of
-      ship: crude, product, chemical, container, dry bulk, multi-purpose, off
-      shore or other the age of the vessel and the size. Then begins the Sale
-      and Purchase process and following acquisition decisions will need to be
-      made about where to charter out the vessel and the length of the charter.
-      Finally, there is the timing of the sales process. Along the way decisions
-      will need to be made regarding brokers, ship management and financing
-      structure, and depending on the ship type, bunker hedging, crewing and
-      maintenance and dry-docking.
+      <h3>Contact</h3>
+      We are based in sunny Manchester but regularly visit London. If you are
+      thinking about investing in the marine sector or would simply like to know
+      more about the marine eco system please give us a call or drop us an
+      email.
       <LineBreak />
-      <h3>Starboard Ventures as your Partner</h3>
-      <Indent/>
-      Starboard Ventures is a marine partner. We partner with investors and help
-      manage the strategic and operational aspects of marine investment.
-      Typically we act as owner's representatives and act as Board members on
-      behalf of investors, however, we also get involved in commercial strategy
-      especially vessel acquisition.
-      <LineBreak />
+      <h3>Blog</h3>
+      For some no nonsense insights into the basics of the marine sector and
+      beyond please check out our blog.(blog link)
     </div>
   </div>
 );

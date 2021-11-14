@@ -43,11 +43,12 @@ const BottomBar = () => {
             <div
               style={{
                 letterSpacing: 2,
+                display: 'inline-block',
               }}
               class="navigation-container"
             >
-              Board Member &#8212; Due Diligence<br></br>
-              Sale & Purchase &#8212; Owner's Representative
+              Strategic Leadership &#8212; Project Management<br></br>
+              Innovation & Delivery &#8212; Transformation & Restructuring
             </div>
           </div>
         </div>
