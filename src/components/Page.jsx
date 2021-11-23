@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 
-import getMarginHeight from '../functions/getMarginHeight';
-import useWindowDimensions from '../functions/useWindowDimensions';
+import getHeaderOffset from '../util/getHeaderOffset';
+import useWindowDimensions from '../util/useWindowDimensions';
 
 const Page = ({ children, useMarginHeight = true }) => {
   let pageRef = useRef(null);
@@ -11,7 +11,7 @@ const Page = ({ children, useMarginHeight = true }) => {
     useMarginHeight
       ? () => {
           const updateTopMargin = () =>
-            (pageRef.current.style.marginTop = getMarginHeight(
+            (pageRef.current.style.marginTop = getHeaderOffset(
               windowWidth,
               10
             ));
