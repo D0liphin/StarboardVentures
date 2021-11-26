@@ -1,9 +1,6 @@
 import LineBreak from '../LineBreak';
 import Article from '../Article';
 
-const PLACEHOLDER_IMG =
-  'https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg';
-
 let Br = () => <LineBreak height="5px" />;
 
 export default (
@@ -14,7 +11,7 @@ export default (
     description={`
     Some basics about the types of fuels used in the marine industry and recent changes.
     `}
-    image={'Article2-fuelOil-WikiCommons.jpg'}
+    image={'./Article2-fuelOil-WikiCommons.jpg'}
   >
     <p>
       You can read a lot in the maritime press about air pollution from ships.
