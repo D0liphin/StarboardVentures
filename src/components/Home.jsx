@@ -100,7 +100,7 @@ const Description = () => (
       <h3>Blog</h3>
       For some no nonsense insights into the basics of the marine sector and
       beyond please check out our blog.
-      <Link to="/Contact">
+      <Link to="/Blog">
         <em>&nbsp; (Blog)</em>
       </Link>
     </div>
