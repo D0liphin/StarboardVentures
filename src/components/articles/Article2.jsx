@@ -9,7 +9,11 @@ export default (
     date="25/08/2021"
     author="Simon Wade"
     description={`
-    Some basics about the types of fuels used in the marine industry and recent changes.
+      Heavy Fuel Oil(HFO) has propelled most types of ships for a fairly long time.
+      That said, there have been some important recent developments aimed at improving
+      and reducing the environmental side-effects of burning HFO.
+      We provide a brief overview of these efforts and discuss the ongoing
+      efforts to reduce the CO2 emissions from ocean going ships.
     `}
     image={'./Article2-fuelOil-WikiCommons.jpg'}
   >

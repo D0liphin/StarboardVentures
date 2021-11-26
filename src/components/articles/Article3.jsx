@@ -1,7 +1,6 @@
 import LineBreak from '../LineBreak';
 import Article from '../Article';
 
-
 let Br = () => <LineBreak height="5px" />;
 
 export default (
@@ -13,6 +12,7 @@ export default (
     It is astonishing how large much of the shipping fleet is today.
     Lengths approaching 400 meters are no longer uncommon.
     Will this trend ever cease? Will all ships eventually become behemoths?
+    Or have we now seen the end of this final phase of vessel growth?
     `}
     image={'./Article3-pixabay.jpg'}
   >
@@ -80,6 +80,20 @@ export default (
       ships. Clients just don't need huge lots of diesel or petrol and the
       refineries are not far enough away from the end users for the merits of
       fuel efficiency to play such a critical role.
+    </p>
+    <Br />
+    <p>
+      I think that we are near the end of the increase in vessel size. While the
+      average vessel size will increase over the next decade as smaller ships
+      are phased out the growth in vessel size, even in container ships, has
+      probably reached its end. It is worth noting that there used to be a ULCC
+      (Ultra Large Crude Carrier) in the 1970s with lengths of over 500m. These
+      vessels turned out to be a step too far and so have made way for VLCCs.
+      Similarly, the larger end of the dry bulk market is dominated by capesize
+      vessels. The main user of VLOC to date has been the Brazilian ore giant
+      Vale and they have had some problems with cracking on these very large
+      vessels. I think that I will put my money on 20,000 or there abouts as the
+      end of containership growth as well.
     </p>
   </Article>
 );

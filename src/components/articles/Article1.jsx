@@ -10,10 +10,11 @@ export default (
     date="25/07/2021"
     author="Roger Iliffe"
     description={`
-      Quick overview of some considerations when taking the plunge into investing
-      in ships. What kind of ship? How old? How to buy a ship? How to manage a ship 
-      and how to exit. 
-    `}
+      This blog provides a quick overview of some of the key considerations to be made
+      when taking the plunge into investing directly into vessels.
+      We go over some of the key questions: What kind of ship? How old? 
+      How to buy a ship? How to manage a ship 
+      and how to exit.  `}
     image={'./Article1-colin-lloyd-cruiseship.jpg'}
   >
     Our first blog is a quick introduction to the eco system around investing in
