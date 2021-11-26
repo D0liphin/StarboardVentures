@@ -67,7 +67,7 @@ const Background = ({ imgSrc, full }) => {
             <div style={{ overflow: "hidden", maxHeight: "35vh" }}>
                 <img
                     ref={imgRef}
-                    alt="background image"
+                    alt="background"
                     style={{
                         width: "calc(100% + 20px)",
                         minWidth: styleIsUpdated ? "1000px" : "100vw",

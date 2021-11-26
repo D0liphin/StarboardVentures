@@ -5,5 +5,5 @@
 export default function makeKebab(text) {
     return text.toLowerCase()
         .replace(/ /g, '-')
-        .replace(/[^a-z\-]/g);
+        .replace(/[^a-z-]/g);
 }
