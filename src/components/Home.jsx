@@ -75,15 +75,15 @@ const Description = () => (
       "steer the right course", with their marine investments. It is lead by
       Roger Iliffe and Simon Wade who together have more than 35 years
       experience in the marine industry over a wide range of roles from
-      ship-building to CEO.
+      ship-building supervision to CEO.
       <Link to="/Team">
         <em>&nbsp; (Team)</em>
       </Link>
       <LineBreak />
       <h3>Partnering with Us</h3>
       To ensure that we have the greatest impact we focus on four services:
-      Strategic Leadership, Project Management, Innovation and Delivery, and
-      Transformation and Restructuring.
+      Strategy, Projects, Growth and Restructuring. Take a look at how these
+      services can help you add value to your marine investments.
       <Link to="/Services">
         <em>&nbsp; (Services)</em>
       </Link>
@@ -91,7 +91,7 @@ const Description = () => (
       <h3>Contact Us</h3>
       We are based in sunny Manchester but regularly visit London. If you are
       thinking about investing in the marine sector or would simply like to know
-      more about the marine eco system please give us a call or drop us an
+      more about the marine eco-system please give us a call or drop us an
       email.
       <Link to="/Contact">
         <em>&nbsp; (Contact)</em>
@@ -100,6 +100,7 @@ const Description = () => (
       <h3>Blog</h3>
       For some no nonsense insights into the basics of the marine sector and
       beyond please check out our blog.
+      For more specialised advice please contact us directly.
       <Link to="/Blog">
         <em>&nbsp; (Blog)</em>
       </Link>

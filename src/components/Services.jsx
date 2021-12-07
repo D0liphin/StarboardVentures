@@ -76,8 +76,9 @@ const Services = () => {
           }}
         >
           Our partnerships with our clients tend to focus on one of four areas:
-          strategy including Board level positions; growth; a specific project
-          such as an acquisition; or operational or financial restructuring.
+          strategy including Board level positions; revenue growth such as
+          building up a fleet or serving new market; a specific project such as
+          an acquisition; or operational or financial restructuring.
         </div>
         <hr />
         <ServicesContainer>
@@ -88,10 +89,11 @@ const Services = () => {
             />
             <div>
               Depending on the nature and structure of your investment we can
-              act as one of your Board representatives. While fulfilling the
-              role of Board Member we typically be acting in an active manner:
-              supporting management, providing market insight and assisting with
-              strategic initiatives.
+              either take on the role of a Board member or, in special cases,
+              help the Board develop a long term strategy and organisation. We
+              have acted as Board Members in a wide range of shipping entities
+              including offshore and break-bulk operators, single ship entities,
+              and commercial groups.
             </div>
             <br />
             <img
@@ -99,31 +101,41 @@ const Services = () => {
               alt="" /* style={{ float: "right" }} */
             />
             <div>
-              We have acted as Board Members in a wide range of shipping
-              entities including offshore and break-bulk operators, single ship
-              entities, and commercial groups.
+              Strategy development involves understanding the dynamics and
+              trends within the relevant market, getting to know the key players
+              and understanding and developing concrete plans to deal with
+              ongoing regulatory change. In particular, environmental regulation
+              within the marine sector will, in the future, have a much greater
+              impact on the success of investments in the medium term.
             </div>
-            <LineBreak />
           </Service>
           <Service name="Growth">
             <img src="DDBulker.jpg" alt="" /* style={{ float: "right" }} */ />
             <div>
-              Due diligence activities in the marine sector can be broken down
-              into three main categories: ship level, counter-party risk and
-              business valuation. Ship level due diligence includes technical
-              condition, commercial opportunities and valuations. Counter-party
-              risk includes assessing potential partners as suppliers, shipyard
-              inspections and commercial risks. Finally, business valuation
-              includes the assessment of business plans, organizational
-              capability and growth prospects.
-              <LineBreak />
-              We have performed and coordinated technical due diligence on a
-              variety of fleets including: tankers, bulkers, chemical tankers,
-              containers, multi-purpose and offshore. We have vetted
-              counter-parties and assessed a number of shipyards, in the process
-              we have developed a detailed shipyard assessment tool.
+              Developing a successful growth strategy in the marine sector is
+              heavily dependent on getting the timing right. Marine cycles can
+              take over a decade to play out and rates can stay low, at levels
+              that barely cover opex, for many years. We can support you in
+              determining when and how to grow your fleet or, for marine
+              services, to understand how overall fleet trends might effect your
+              business.
             </div>
+            <br />
             <img src="DDTanker.jpg" alt="" />
+            <div>
+              We can assist you whether your Growth strategy involves the
+              acquisition of a vessel or an operating company. We have conducted
+              vessel and fleet due diligence on a broad range of vessel types
+              including tankers, bulkers, chemical tankers, containers,
+              multi-purpose and offshore vessels. And, if growth means ordering
+              a new ship we have experience vetting Asian and European shipyards
+              from Croatia to Vietnam to Japan and in the process have developed
+              a detailed shipyard assessment tool. Last, but not least, we have
+              experience conducting operational due diligence on operating
+              companies and can help you build up an overall picture of the
+              value creation opportunities within the market to help you steer
+              the right course.
+            </div>
           </Service>
           <Service name="Projects">
             <img
@@ -131,39 +143,55 @@ const Services = () => {
               alt="" /* style={{ float: "left" }} */
             />
             <div>
-              Sale and Purchase (S&P) requirement could be the relatively
-              straight-forward purchase of an existing ship in support of an
-              investment hypothesis. The process might then include the search
-              and assessment of vessel opportunities, followed by the
-              coordination of brokers and general transaction support. A new
-              build acquisition would be quite different. It might include the
-              assessment of various competing ship designs, finding the right
-              shipyard coordination of brokers activities and ensuring that the
-              right build supervision team is on site from the start.
-              <LineBreak />
-              Once the transaction process is underway an appropriate ship
-              manager needs to be found as well as the best fit commercial
-              structure, this could involve a long term charter, joining a pool
-              or a more bespoke structure.
+              An investment in a single vessel or a small number of ships can
+              sometimes be difficult to manage. The small number precludes
+              setting up a dedicated organization and yet the size of the
+              investment can be substantial. In this case the best solution may
+              be using us as your Owner's representative to manage the ships
+              without setting up a large organization. We set up a commercial
+              and technical structure using third party providers which gives
+              you the flexibility to exit your investment when the time is
+              right. Similarly, if you are investing in new build ships you will
+              need to set up and monitor the performance of the build
+              supervision team.
             </div>
+            <br />
             <img src="SAndPDSV.jpg" alt="" />
+            <div>
+              On the other hand, if you are investing alongside a financial
+              partner you may want an independent third party to investigate
+              specific issues that could impact your returns. This might include
+              ensuring that you are ship are of the right design, that you are
+              selecting the right shipyard, that you understanding the risks of
+              ongoing changes to environmental and regulatory rules or assessing
+              your partners' organisation to ensure that it is fit for purpose.
+            </div>
           </Service>
           <Service name="Restructuring">
             <img src="ORDryDock.jpg" alt="" /* style={{ float: "left" }} */ />
             <div>
-              The role of Owner's Representative simply means looking after the
-              owner's best interests at every stage of the ship's life. In this
-              role we either work with the client to set up the right supply
-              chain or, if this has already been done, manage their activities
-              on a day to day basis. Key activities include managing
-              counter-party claims, commercial and operational issues, ensuring
-              that the vessels are kept in good order and getting value for
-              money. Of particular importance is managing the in-service
-              maintenance and the dry-docking scope as well as developing and
-              maintaining good working relationships with the classification
-              society and the flag state.
+              Restructuring can be either operational, financial or both. With
+              regards to financial restructuring the rules for protecting
+              security in the marine world are different from what you might be
+              used to elsewhere. Individual vessels can be arrested at port
+              fairly easily at the request of creditors and typically the nature
+              of a bunker (fuel) contract is that the fuel continues to be owned
+              by the bunker provider until paid for. A typical financial
+              restructuring may therefore involve many arrests in various marine
+              jurisdications. We have considerable experience managing financial
+              restructuring in the marine space and have gone through twenty
+              vessel arrests on behalf of clients.
             </div>
             <img src="ORPort.jpg" alt="" /* style={{ float: "right" }} */ />
+            <div>
+              The operational part of a restructuring can be similarly sector
+              specific. There may be disputes with shipyards, suppliers, and
+              operators to deal with. Crewing issues will need to be addressed
+              as well as onshore staff. Frequently these issues are similar to
+              other industrial sectors and do not require any marine specific
+              expertise but sometimes they can be quite marine specific due to
+              regulatory and practical considerations.
+            </div>
           </Service>
         </ServicesContainer>
       </Page>
